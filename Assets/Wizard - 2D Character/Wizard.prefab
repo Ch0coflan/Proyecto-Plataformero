@@ -185,13 +185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bde48547451eab34e930eddcde2916b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cerezas: {fileID: 0}
-  Banano: {fileID: 0}
   balaPrefab: {fileID: 0}
   EntradaX: 
   EntradaY: 
   salto: 119
-  reinicio: 114
   ataque: 32
   fuerzaSalto: 110
   velocidad: 10
@@ -201,13 +198,9 @@ MonoBehaviour:
   UltimoTiro: 0
   Vida: 5
   orientacion: 0
-  corazon1: {fileID: 0}
-  corazon2: {fileID: 0}
-  corazon3: {fileID: 0}
-  corazon4: {fileID: 0}
-  corazon5: {fileID: 0}
-  textoPuntos: {fileID: 0}
   puntoDisparo: {fileID: 3534339351192035930}
+  ControladorVidas: {fileID: 0}
+  ControladorPuntos: {fileID: 0}
 --- !u!1 &8405294264173844939
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 8405294264173844939}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.26, y: 2.4, z: 0}
+  m_LocalPosition: {x: 1.98, y: 2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
