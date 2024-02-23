@@ -4,13 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class llavesYpuertas : MonoBehaviour
 {
-    private Menu Menu;
+   
     private Animator animator;
 
     public void Awake()
     {
         animator = GetComponent<Animator>();
-        Menu.Gg();
+        
     }
 
     [ContextMenu("Open")]
@@ -22,9 +22,9 @@ public class llavesYpuertas : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
-            Menu.Gg();
+            SceneManager.LoadScene("Gg", LoadSceneMode.Single);
         }
             
     }

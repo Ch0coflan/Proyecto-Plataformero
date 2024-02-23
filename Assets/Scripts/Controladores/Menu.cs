@@ -20,9 +20,9 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
-    public void Gg()
+    public void Volver2()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 
     public void Salir()

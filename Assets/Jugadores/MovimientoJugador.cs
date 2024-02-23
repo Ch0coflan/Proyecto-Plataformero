@@ -145,11 +145,11 @@ public class MovimientoJugador : MonoBehaviour
         if (Vida == 0)
         {
             EstaVivo = false;
-            _animator.SetBool("Dead", true);
+            _animator.SetTrigger("Dead");
         }
         else
         {
-            _animator.SetBool("Dead", false);
+            
             EstaVivo = true;
         }
     }
